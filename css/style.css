@@ -1,0 +1,259 @@
+/* Tipografías que usaremos
+************************************/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,700;1,700&family=Rubik:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,700;1,700&family=Rubik:ital,wght@0,500;1,500&display=swap');
+
+/* Estilos para maquetar
+************************************/
+body{
+    height: 100vh;
+    width: 300px;
+    display: grid;
+    place-content: center;
+    margin: auto;    
+}
+
+p,
+a,
+span,
+div{
+    font-family: "Merriweather Sans", sans-serif;
+    font-weight: 300;
+    margin: 0; 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* Variables de color
+************************************/
+:root{
+    --e-global-color-primary: #FF4081;
+    --e-global-color-secondary: #3F51B5;
+    --e-global-color-text: #333333;
+    --e-global-color-accent: #757DE8;
+    --e-global-color-7e95af4: #00000000;
+    --e-global-color-d3ee51d: #F5F5F5;
+    --e-global-color-caa98cc: #EBEBEB;
+    --e-global-color-aaf3ed6: #C2C2C2;
+    --e-global-color-96969fe: #DEDEFF;
+    --e-global-color-6062eab: #FFE4FF;
+    --e-global-color-840016e: #5C5C5C;
+    --e-global-color-7644a5c: #FFFFFF;
+}
+
+/* Variables de tipografía
+************************************/
+:root{
+    --e-global-typography-ec1529f-font-size: clamp(0.8rem, 0.17vw + 0.76rem, 0.89rem);
+    --e-global-typography-25ae628-font-size: clamp(1rem, 0.34vw + 0.91rem, 1.19rem);
+    --e-global-typography-60ff935-font-size: clamp(1.25rem, 0.61vw + 1.1rem, 1.58rem);
+    --e-global-typography-6aecb25-font-size: clamp(1.56rem, 1vw + 1.31rem, 2.11rem);
+    --e-global-typography-faeb9bc-font-size: clamp(1.95rem, 1.56vw + 1.56rem, 2.81rem);
+    --e-global-typography-d6dbe2c-font-size: clamp(2.44rem, 2.38vw + 1.85rem, 3.75rem);
+    --e-global-typography-77ae88b-font-size: clamp(3.05rem, 3.54vw + 2.17rem, 5rem);
+}
+
+/* CSS tipografías
+************************************/
+.fs-sm{
+    font-size: var(--e-global-typography-25ae628-font-size);
+} 
+.fs-base{
+    font-size: var(--e-global-typography-60ff935-font-size);
+}
+.fs-md{
+font-size: var(--e-global-typography-6aecb25-font-size);
+}
+.fs-lg{
+font-size: var(--e-global-typography-77ae88b-font-size);
+} 
+.fs-xl{
+font-size: var(--e-global-typography-d6dbe2c-font-size);
+}
+.fs-xxl{
+font-size: var(--e-global-typography-ec1529f-font-size);
+}
+.fs-xxxl{
+font-size: var(--e-global-typography-faeb9bc-font-size);
+}
+.fw-700{
+    font-weight: 700;
+}
+.fw-300{
+    font-weight: 300;
+}
+.fw-500{
+    font-weight: 600;
+}
+
+/* CSS color
+************************************/
+.c-primary{
+    color: var(--e-global-color-primary);
+}
+.c-secondary{
+    color: var(--e-global-color-secondary);
+}
+.c-text{
+    color: var(--e-global-color-text);
+}
+.c-accent{
+    color: var(--e-global-color-accent);
+}
+.c-extra-1{
+    color: var(--e-global-color-7e95af4);
+}
+.c-extra-2{
+    color: var(--e-global-color-d3ee51d);
+}
+.c-extra-3{
+    color: var(--e-global-color-caa98cc);
+}
+.c-extra-4{
+    color: var(--e-global-color-aaf3ed6);
+}
+.c-extra-5{
+    color: var(--e-global-color-96969fe);
+}
+.c-extra-6{
+    color: var(--e-global-color-6062eab);
+}
+.c-extra-7{
+    color: var(--e-global-color-840016e);
+}
+.c-extra-8{
+    color: var(--e-global-color-7644a5c);
+}
+
+/* CSS background
+************************************/
+.bg-primary{
+    color: var(--e-global-color-primary);
+}
+.bg-secondary{
+    color: var(--e-global-color-secondary);
+}
+.bg-text{
+    color: var(--e-global-color-text);
+}
+.bg-accent{
+    color: var(--e-global-color-accent);
+}
+.bg-extra-1{
+    color: var(--e-global-color-7e95af4);
+}
+.bg-extra-2{
+    color: var(--e-global-color-d3ee51d);
+}
+.bg-extra-3{
+    color: var(--e-global-color-caa98cc);
+}
+.bg-extra-4{
+    color: var(--e-global-color-aaf3ed6);
+}
+.bg-extra-5{
+    color: var(--e-global-color-96969fe);
+}
+.bg-extra-6{
+    color: var(--e-global-color-6062eab);
+}
+.bg-extra-7{
+    color: var(--e-global-color-840016e);
+}
+.bg-extra-8{
+    color: var(--e-global-color-7644a5c);
+}
+
+/* Estilo de Bordes
+************************************/
+.bdr-rad-full{
+    border-radius: 999px;
+}
+.bdr-rad-usm{
+    border-radius: 2px;
+}
+.bdr-rad-sm{
+    border-radius: .5em;
+}
+.card-bdr-sol{
+    border: 1px solid var(--e-global-color-caa98cc);
+}
+
+/* Espaciados y márgenes
+************************************/
+.pad-usm{
+    padding: 5px;
+}
+.pad-l{
+    padding: 1.5em;
+}
+.gap-sm{
+    gap: .5em;
+}
+.gap-usm{
+    gap: 5px;
+}
+
+/* Estilos de imagenes de propiedades
+************************************/
+.img-prop{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.img-prop:hover{
+    opacity: 0;
+}
+
+/* Otros estilos
+************************************/
+.ov-hidd{
+    overflow: hidden;
+}
+.full-width{
+    width: 100%;
+}
+.min-h-title{
+    min-height: 46px;
+}
+.short-text{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.btn-prop:hover{
+    color: var(--e-global-color-96969fe);
+    background-color: var(--e-global-color-accent);
+}
+.asp-rat-4-3{
+    aspect-ratio: 4/3;
+    object-fit: cover;
+}
+.trans-ease{
+    transition: 150ms ease;
+}
+.p-abs{
+    position: absolute;
+}
+.op-type{
+    top: .5em;
+}
+.fav-btn{
+    left: 1em;
+    top: 1em;
+    height: 38px;
+    width: 38px;
+}
