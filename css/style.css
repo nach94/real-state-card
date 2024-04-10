@@ -139,40 +139,40 @@ font-size: var(--e-global-typography-faeb9bc-font-size);
 /* CSS background
 ************************************/
 .bg-primary{
-    color: var(--e-global-color-primary);
+    background: var(--e-global-color-primary);
 }
 .bg-secondary{
-    color: var(--e-global-color-secondary);
+    background: var(--e-global-color-secondary);
 }
 .bg-text{
-    color: var(--e-global-color-text);
+    background: var(--e-global-color-text);
 }
 .bg-accent{
-    color: var(--e-global-color-accent);
+    background: var(--e-global-color-accent);
 }
 .bg-extra-1{
-    color: var(--e-global-color-7e95af4);
+    background: var(--e-global-color-7e95af4);
 }
 .bg-extra-2{
-    color: var(--e-global-color-d3ee51d);
+    background: var(--e-global-color-d3ee51d);
 }
 .bg-extra-3{
-    color: var(--e-global-color-caa98cc);
+    background: var(--e-global-color-caa98cc);
 }
 .bg-extra-4{
-    color: var(--e-global-color-aaf3ed6);
+    background: var(--e-global-color-aaf3ed6);
 }
 .bg-extra-5{
-    color: var(--e-global-color-96969fe);
+    background: var(--e-global-color-96969fe);
 }
 .bg-extra-6{
-    color: var(--e-global-color-6062eab);
+    background: var(--e-global-color-6062eab);
 }
 .bg-extra-7{
-    color: var(--e-global-color-840016e);
+    background: var(--e-global-color-840016e);
 }
 .bg-extra-8{
-    color: var(--e-global-color-7644a5c);
+    background: var(--e-global-color-7644a5c);
 }
 
 /* Estilo de Bordes
@@ -203,6 +203,24 @@ font-size: var(--e-global-typography-faeb9bc-font-size);
 }
 .gap-usm{
     gap: 5px;
+}
+
+/* Estilos de imagenes de propiedades
+************************************/
+.d-grid{
+    display: grid;
+}
+.d-grid-1-col{
+    grid-template-columns: 1fr;
+}
+.d-grid-2-col{
+    grid-template-columns: 1fr 1fr;
+}
+.d-grid-3-col{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.d-grid-6-col{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 /* Estilos de imagenes de propiedades
