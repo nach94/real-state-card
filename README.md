@@ -17,5 +17,5 @@ Download this project and get start it!
 
 ## How can I download it?
 
-![Logo](https://helloeveryone.me/wp-content/uploads/Real-State-Card-Download.gif)
+![App Screenshot](https://helloeveryone.me/wp-content/uploads/Real-State-Card-Download.gif)
 
